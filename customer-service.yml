@@ -6,6 +6,6 @@ spring:
     name: customer-service
   data:
     mongodb:
-      uri: mongodb://localhost:27017/customers_db  # URL de conexión
+      uri: mongodb://localhost:27017/bootcampbd
   config:
     import: "optional:configserver:"
