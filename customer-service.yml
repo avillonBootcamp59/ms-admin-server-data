@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: customer-service
+    name: ms-customer
   data:
     mongodb:
       uri: mongodb://localhost:27017/bootcampbd
