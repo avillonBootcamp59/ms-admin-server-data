@@ -6,6 +6,6 @@ spring:
     name: ms-customer
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bootcampbd
+      uri: mongodb://localhost:27017/custmersdb
   config:
     import: "optional:configserver:"
