@@ -7,5 +7,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/custmersdb
-  config:
-    import: "optional:configserver:"
+
+logging:
+  level:
+    root: INFO
