@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ms-reports
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bankdb
+      
+logging:
+  level:
+    root: INFO
