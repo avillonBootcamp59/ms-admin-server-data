@@ -6,7 +6,7 @@ spring:
     name: ms-authentication
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bankdb
+      uri: mongodb://localhost:27017/authbd
       
 logging:
   level:
