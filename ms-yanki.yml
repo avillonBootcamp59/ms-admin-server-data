@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: ms-yanki
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bankdb
+      
+logging:
+  level:
+    root: INFO
