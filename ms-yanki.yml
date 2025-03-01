@@ -6,8 +6,16 @@ spring:
     name: ms-yanki
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bankdb
-      
+      uri: mongodb://localhost:27017/yankidb
+  redis:
+    host: localhost
+    port: 6379
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      transaction: "yanki-transactions"
+ 
 logging:
   level:
     root: INFO
+
