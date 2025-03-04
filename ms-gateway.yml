@@ -33,7 +33,7 @@ spring:
           predicates:
             - Path=/auth/**
           filters:
-            - AuthenticationFilter
+            - JwtFilter
   security:
     oauth2:
       resourceserver:
