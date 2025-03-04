@@ -3,12 +3,7 @@ server:
 
 spring:
   application:
-    name: ms-gateway
-  cloud:
-    config:
-      uri: http://localhost:8888
-      username: root
-      password: s3cr3t
+    name: ms-gateway 
     gateway:
       routes:
         - id: ms-customer
