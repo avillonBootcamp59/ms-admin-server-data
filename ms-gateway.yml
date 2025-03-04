@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: ms-gateway 
+    
+  cloud:
     gateway:
       routes:
         - id: ms-customer
