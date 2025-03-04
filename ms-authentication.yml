@@ -11,3 +11,12 @@ spring:
 logging:
   level:
     root: INFO
+endpoints:
+    web:
+      exposure:
+        include: "*"
+
+key_encriptacion: BOOTCAMO592025
+key_token: lAwz5Rw8QXbEuuHTW8uJbw==
+jwt_token_duration_segundos: 3600
+jwt_refresh_token_duration_segundos: 3900
