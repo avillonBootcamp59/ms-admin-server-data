@@ -18,5 +18,5 @@ endpoints:
 
 key_encriptacion: BOOTCAMO592025
 key_token: lAwz5Rw8QXbEuuHTW8uJbw==
-jwt_token_duration_segundos: 3600
+jwt_token_duration_segundos: 3600000
 jwt_refresh_token_duration_segundos: 3900
