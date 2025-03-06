@@ -40,4 +40,4 @@ spring:
         jwt:
           issuer-uri: http://localhost:8088
 
-key_token: lAwz5Rw8QXbEuuHTW8uJbw==
+key_token: aR2F8FZQF6b2K8nR5HXpzz0LRq3xZbxX/9Skkl6P94U=
