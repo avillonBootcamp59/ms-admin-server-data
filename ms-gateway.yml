@@ -12,6 +12,9 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/api/v1/customers/**
+          filters:
+            - RemoveRequestHeader=Cookie
+            - TokenRelay  
             
         - id: ms-accounts
           uri: http://localhost:8082
