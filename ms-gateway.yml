@@ -12,9 +12,6 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/api/v1/customers/**
-          filters:
-            - RemoveRequestHeader=Authorization
-            - AddRequestHeader=Authorization, Bearer {token}
             
         - id: ms-accounts
           uri: http://localhost:8082
