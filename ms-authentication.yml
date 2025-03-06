@@ -19,6 +19,6 @@ management:
         include: "*"
 
 key_encriptacion: BOOTCAMO592025jd
-key_token: lAwz5Rw8QXbEuuHTW8uJbw==
+key_token: aR2F8FZQF6b2K8nR5HXpzz0LRq3xZbxX/9Skkl6P94U=
 jwt_token_duration_segundos: 3600000
 jwt_refresh_token_duration_segundos: 3900
