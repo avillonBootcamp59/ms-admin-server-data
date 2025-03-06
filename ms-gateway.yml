@@ -12,7 +12,9 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/api/v1/customers/**
-
+          filters:
+            - JwtFilter
+            
         - id: ms-accounts
           uri: http://localhost:8082
           predicates:
