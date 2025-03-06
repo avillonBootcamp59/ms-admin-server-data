@@ -32,7 +32,8 @@ spring:
           uri: http://localhost:8088
           predicates:
             - Path=/api/v1/auth/** 
-
+          filters: 
+            - AddRequestHeader=Authorization, Bearer {token}
   security:
     oauth2:
       resourceserver:
