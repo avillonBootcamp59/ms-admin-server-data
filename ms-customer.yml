@@ -6,12 +6,7 @@ spring:
     name: ms-customer
   data:
     mongodb:
-      uri: mongodb://localhost:27017/custmersdb
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8088
+      uri: mongodb://localhost:27017/custmersdb 
 logging:
   level:
     root: INFO
