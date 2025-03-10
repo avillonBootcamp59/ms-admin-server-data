@@ -11,3 +11,15 @@ spring:
 logging:
   level:
     root: INFO
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://ms-eureka-server:8761/eureka
+      defaultZone: http://localhost:8761/eureka
