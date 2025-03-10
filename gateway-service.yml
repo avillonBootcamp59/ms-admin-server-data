@@ -20,6 +20,8 @@ spring:
           uri: lb://ms-customer
           predicates:
             - Path=/api/v1/customers/** 
+          filters:
+            - StripPrefix=2  
             
         - id: ms-accounts
           uri: lb://ms-accounts
