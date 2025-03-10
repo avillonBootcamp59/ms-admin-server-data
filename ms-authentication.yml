@@ -18,6 +18,12 @@ management:
       exposure:
         include: "*"
 
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://ms-eureka-server:8761/eureka
+      defaultZone: http://localhost:8761/eureka
+      
 key_encriptacion: BOOTCAMO592025jd
 key_token: Xx4K0hF3Qp5Lp3WvF+N+4kSzCvT9uXhQ/VlIhxAs+G4=
 jwt_token_duration_segundos: 3600000
