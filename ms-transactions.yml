@@ -7,6 +7,12 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/bankdb
+
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://ms-eureka-server:8761/eureka
+      defaultZone: http://localhost:8761/eureka
       
 logging:
   level:
