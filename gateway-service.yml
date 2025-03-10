@@ -32,7 +32,9 @@ spring:
           uri: lb://ms-credits
           predicates:
             - Path=/api/v1/credits/**
-
+          filters:
+            - StripPrefix=2  
+            
         - id: ms-transactions
           uri: lb://ms-transactions
           predicates:
