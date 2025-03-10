@@ -19,9 +19,7 @@ spring:
         - id: ms-customer
           uri: lb://ms-customer
           predicates:
-            - Path=/api/v1/customers/** 
-          filters:
-            - StripPrefix=2  
+            - Path=/api/v1/customers/**  
             
         - id: ms-accounts
           uri: lb://ms-accounts
@@ -31,9 +29,7 @@ spring:
         - id: ms-credits
           uri: lb://ms-credits
           predicates:
-            - Path=/api/v1/credits/**
-          filters:
-            - StripPrefix=2  
+            - Path=/api/v1/credits/** 
             
         - id: ms-transactions
           uri: lb://ms-transactions
